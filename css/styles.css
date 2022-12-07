@@ -194,7 +194,7 @@ body {
 
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 
 .menu_item:nth-of-type(1) {
@@ -203,18 +203,18 @@ body {
 
 .item-ico-1 {
     margin-left: 2.5px;
-    width: 7px;
+    width: 9px;
 }
 
 .item-ico-2 {
     margin-left: 4.22px;
-    width: 10.56px;
+    width: 13px;
 }
 
 .item-ico-3 {
     margin-left: 3.92px;
-    Width: 8.17px;
-    Height: 9.33px;
+    Width: 14px;
+    Height: 14px;
 }
 
 @media (max-width: 414px) {
@@ -257,6 +257,7 @@ body {
     }
 
     .search_text {
+        border: 4px solid var(--dark_blue);
         padding: 0 100px;
         height: 94px;
         font-size: 24px;
@@ -317,18 +318,18 @@ body {
 
     .item-ico-1 {
         margin-left: 10px;
-        width: 14px;
+        width: 15px;
     }
 
     .item-ico-2 {
         margin-left: 8.44px;
-        width: 21.11px;
+        width: 22px;
     }
 
     .item-ico-3 {
         margin-left: 5.83px;
-        width: 16.33px;
-        height: 18.67px;
+        width: 28px;
+        height: 28px;
     }
 }
 
